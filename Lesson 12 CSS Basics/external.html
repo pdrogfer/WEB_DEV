@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- this page uses external CSS. First create a file in the root folder, called
+     by convention styles.css which will store all style definitions. One styles.css file
+      can be used in many different pages, to provide a unique or common style -->
+    <head lang = "en">
+        <meta charset = "UTF-8">
+        <title>External CSS</title>
+        <!-- like 'import' statements in Java, this link statement is necessary to
+        connect both html and css files -->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Now using External Style &mdash; it's the way to go!</h1>
+        <!-- 'em' tag is inside 'h2' tag, so it's a child of 'h2'. See styles.css to understand
+         it's implications -->
+        <h2>There is <em>3 ways</em> to add CSS style:</h2>
+        <ol>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background: green;
+    /* if monospace is not available, use sans-serif */
+    font-family: monospace, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* grouping selector, to avoid repetition*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    border: double 4px whitesmoke;
+    background-color: darkslategrey;
+    font-size: 2em;
+    padding: 10px;
+}
+
+ol {
+    border: solid 4px black;
+    background: grey;
+    padding: 20px 20px 20px 50px;
+}
+
+a{
+    color: #ffe121;
+}
+
+strong {
+    color: coral;
+}

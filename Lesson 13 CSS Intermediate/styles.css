@@ -1,0 +1,60 @@
+* {
+    /*
+    margin: 0px;
+    padding: 0px;
+    */
+}
+
+body {
+    background: rgb(51, 34, 79);
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* use a sharp (#) to define id-selectors */
+#div1-id {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#div2-id {
+    background: red;
+    color: antiquewhite;
+    font-family: fantasy;
+}
+
+/* use a dot (.) to identify class-selectors */
+.primary-box {
+    background: #222;
+    color: #eeeeee;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 5px;
+
+}
+
+.secondary-box {
+    background: #eeeeee;
+    color: #222;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 5px;
+}
+
+/* Descendant Selectors: combining class and tag to define
+ the target; here, all h2 elements within a primary-box class */
+.primary-box h2 {
+    font-family: monospace;
+}
+
+/* here, all em elements within a primary-box class */
+.primary-box em {
+    color: aqua;
+}
+
+/* Grouping Selectors: just separate them with a comma (,) */
+.inside-box h3, .inside-box p {
+    font-size: 20px;
+}

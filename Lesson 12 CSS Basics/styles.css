@@ -1,0 +1,36 @@
+/* This is a comment in CSS */
+
+/* Styles have INHERITANCE property, like classes in Java: properties and values declared in selector 'body' apply to all it's
+sub-tags selectors: h1, p, h2, etc unless the child overrides the property and/or value */
+
+/* Measurement units in html-css: px = pixels, % = percentage, and em = one character of the current font being used*/
+body {
+    font-family: fantasy;
+    background-color: #323343;
+    color: #009428;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+h2 {
+    color: #94112c;
+    border-top: solid 1px #333;
+}
+
+/* em is a child of h2. So h2 style would apply to em too, except
+if em defines his own style(here, color) */
+em {
+    color: whitesmoke;
+}
+
+ol {
+    border-bottom: solid 1px #333;
+}

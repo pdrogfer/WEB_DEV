@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+    <body>
+    <!-- a Form with the usual tags
+     form: encloses the whole form
+     fieldset: a fieldset
+     legend: fieldset title
+     input: a field for user to enter data
+     br: break line -->
+        <form>
+            <fieldset>
+                <legend>Profile Info</legend>
+                Name: <input type="text" placeholder="Your Full Name Here"><br>
+                Email: <input type="email" placeholder="your@email.com">
+                Password: <input type="password">
+                <br><br>
+                <!-- When a user clicks on a radio-button, it becomes checked,
+                and all other radio-buttons with equal name become unchecked -->
+                Gender:<br>
+                <input type="radio" name="gender"> Male<br>
+                <input type="radio" name="gender"> Female
+                <br><br>
+                <!-- checkboxes allow multiple selection -->
+                <input type="checkbox"> I have a laptop<br>
+                <input type="checkbox"> I have a desktop
+                <br><br>
+                <!-- a selection button-->
+                Age:<br>
+                <select>
+                    <option>0 - 20</option>
+                    <option>21 - 40</option>
+                    <option>41 - 60</option>
+                    <option>61 - 1000</option>
+                </select>
+                <br><br>
+
+                Biography:<br>
+                <textarea cols="30" rows="3"></textarea>
+                <br><br>
+                <input type="submit" value="Save my Info">
+                <input type="reset" value="Clear form">
+            </fieldset>
+        </form>
+    </body>
+</html>
