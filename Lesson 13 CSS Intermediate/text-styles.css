@@ -54,4 +54,39 @@ h3 {
 }
 blockquote {
     margin: 0 50px 0 50px;
+    font-style: italic;
+    text-indent: 80px;
+    /* line-height of 2.5x the height of the font-size */
+    line-height: 2.5;
+}
+
+span {
+    text-decoration: line-through;
+    /* possible values:
+    - underline
+    - overline
+    - line-through
+    - none
+    Underlines are usually reserved for links */
+}
+
+em {
+    text-transform: uppercase;
+    /* possible values:
+    - uppercase
+    - lowercase
+    - capitalize
+    - none
+    */
+
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+code {
+    display: block;
+    padding: 20px 200px 20px 200px;
 }
