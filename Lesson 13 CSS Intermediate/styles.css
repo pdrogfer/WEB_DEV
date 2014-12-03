@@ -4,9 +4,12 @@
     padding: 0px;
     */
 }
-
+/* About COLORS: basic colors can be specified with their name, but
+ usually hexadecimal code is used. When the six digits are the same,
+ a shortcut: write only 3 of them: #000. RGB code is also possible. */
 body {
-    background: rgb(51, 34, 79);
+    /* There is a color utility in the contextual menu of autocomplete */
+    background-color: #632b94;
     font-family: "Roboto Condensed", sans-serif;
     color: white;
     text-align: center;

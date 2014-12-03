@@ -1,0 +1,57 @@
+/* A CSS example on how to style text */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+body {
+    padding: 14px;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px, 0;
+    font-family: Helvetica;
+
+    /* About Font-Weight:
+    These are equivalent to "normal":
+    -100
+    -200
+    -300
+    -400
+
+    These are equivalent to "bold":
+    -500
+    -600
+    -700
+
+    Hevier than "bold"(not supported on all fonts):
+    -800
+    -900
+    */
+
+    font-weight: bold;
+}
+
+h1 {
+    /* 3x the base font size(16px in this case) */
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    /* letters and words custom spacing (positive=more, negative=less) */
+    letter-spacing: -3px;
+    word-spacing: 20px;
+    text-align: center;
+}
+blockquote {
+    margin: 0 50px 0 50px;
+}
