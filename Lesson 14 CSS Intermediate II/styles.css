@@ -1,0 +1,13 @@
+.myDiv {
+
+    background-image: url("images/cat_63.jpg");
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    padding: 200px;
+
+    /*
+    in order to create a tiled background, do
+    background-repeat: repeat;
+     */
+}
