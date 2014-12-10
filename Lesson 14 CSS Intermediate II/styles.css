@@ -1,8 +1,8 @@
 .myDiv {
-
+    /* background of the myDiv element, not the rest of the page */
     background-image: url("images/cat_63.jpg");
-    width: 700px;
-    height: 700px;
+    /* to scale an image: */
+    background-size: 50%;
     background-repeat: no-repeat;
     padding: 200px;
 
@@ -11,14 +11,14 @@
     background-repeat: repeat;
      */
 }
-
+/*-------------------------------------------------------------------*/
 /* Styling Forms */
 
 #container {
 
     /* a trick to center the content in the browser, the remaining space is
      divided by two */
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 
 }
@@ -42,6 +42,8 @@ form legend {
     padding: 5px;
     font-size: 30px;
     font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 5px;
 }
 /* grouping selectors, each with sub-selectors */
 form input, form textarea {
@@ -61,13 +63,24 @@ form label {
     font-family: 'Slabo 27px', serif;
 }
 /* that is: all input elements of type text inside a form, etc */
-form input[type = "text"], form input[type = "email"] {
+form input[type = "text"], form input[type = "email"] , form textarea {
     padding: 10px;
-    font-size: 12px;
     color: #333333;
+    background-color: coral;
     font-family: 'Indie Flower', sans-serif, serif;
+    font-size: 12px;
 }
 
+form textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+form input {
+    border: solid 1px #ffdc92;
+    border-radius: 3px;
+}
 
 
 
