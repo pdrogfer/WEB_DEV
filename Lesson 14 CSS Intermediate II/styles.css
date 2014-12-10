@@ -69,17 +69,20 @@ form input[type = "text"], form input[type = "email"] , form textarea {
     background-color: coral;
     font-family: 'Indie Flower', sans-serif, serif;
     font-size: 12px;
+    border-radius: 3px;
 }
 
 form textarea {
     width: 300px;
     height: 100px;
-    border-radius: 3px;
 }
 
-form input {
+form input[type = "submit"] {
     border: solid 1px #ffdc92;
     border-radius: 3px;
+
+    /* this line makes the cursor turn into a hand when over the button, nice! */
+    cursor: pointer;
 }
 
 
