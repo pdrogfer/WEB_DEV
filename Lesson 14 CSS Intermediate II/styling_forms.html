@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Styling Forms</title>
+        <link href="styles.css" rel="stylesheet">
+        <!-- neccessary links to use fonts from google servers -->
+        <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Styling HTML Forms in CSS</h1>
+
+            <form>
+                <fieldset>
+                    <legend>Contact Us!</legend>
+                    <!--
+                    "for" links label with it's corresponding
+                    input, so click on label gives input focus too
+                    -->
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name">
+
+                    <label for="contact_email">email:</label>
+                    <input type="text" id="contact_email">
+
+                    <label for="contact_message">message:</label>
+                    <input type="text" id="contact_message">
+
+                    <input type="submit" value="Send Message">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
