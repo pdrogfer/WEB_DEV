@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>El Amigo Restaurant</title>
+        <link href="dirty.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "container">
+            <div id="header" >
+                <a href="/" title="Return to Home Page" id="logo">
+                    <img src="images/logo.png" alt="El Amigo Restaurant">
+                </a>
+            </div>
+            <div id="content" class="content-block">
+                <h1>The Best Spanish Restaurant on the Web</h1>
+                <p>Bienvenido al mejor restaurante español inexistente</p>
+            </div>
+            <div id="reserve" class="content-block">
+                <h2>Make a reservation</h2>
+                <p>Get your spot before someone else does!</p>
+                <form>
+                    <label for="your_name">Your Name:</label>
+                    <!-- 'placeholder' gives a hint about the right input -->
+                    <input type="text" id="your_name" placeholder="Pedro Garcia">
+
+                    <label for="your_email">Your email:</label>
+                    <input type="text" id="your_email" placeholder="pedro@hotmail.com">
+
+                    <label for="your_time">Your time:</label>
+                    <input type="text" id="your_time" placeholder="Martes 13, 21h">
+
+                    <input type="submit" value="Reserve">
+                </form>
+            </div>
+            <div id="footer" class="content-block">
+                &copy;2014 El Amigo
+            </div>
+        </div><!-- end container -->
+    </body>
+</html>

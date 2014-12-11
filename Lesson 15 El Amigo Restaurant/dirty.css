@@ -1,0 +1,89 @@
+
+/* Simple CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url("images/background.jpg") top center no-repeat;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content-block {
+    /* to put this translucid white background, a small image is used,
+    then tiled as needed */
+    background: url("images/transparent_white.png") top left repeat;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#content {
+    border: solid 3px black;
+}
+
+#reserve {
+    border: solid 3px black;
+}
+
+#footer {
+    background: black;
+    color: white;
+}
+
+form {
+    text-align: left;
+    width: 300px;
+    margin: 20px auto 0;
+}
+
+form label {
+    display: block;
+    width: 296px;
+    border: none;
+    /* 290px width + 5px padding left + 5px padding right = 300px, form's width */
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    background: #333;
+    color: white;
+}
+
+form input {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+form input[type = "submit"] {
+    background: #333;
+    color: white;
+    cursor: pointer;
+    width: 305px;
+    border: black;
+    border-radius: 3px;
+}
