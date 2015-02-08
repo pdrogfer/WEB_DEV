@@ -26,17 +26,93 @@ h1 {
 
 p {
 	margin: 10px 0;
+}
 
-
-/* Styling links */
+/* Styling links: */
 
 /* Unvisited links */
 a:link {
 
-	}
+}
 
 /* Visited links */
-
+a:visited {
+	color:pink;
+}
 /* Mouse over link */
-
+a:hover {
+	color:hotpink;
+	text-decoration: underline;
+}
 /* Active links */
+a:active {
+	color:deeppink;
+
+}
+
+/* Specific Link Styles */
+#link-1:hover {
+	background: #333;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#link-3 {
+	background: hotpink;
+	color: #ffffff;
+	padding: 5px;
+}
+
+#link-3:hover {
+	background: black;
+	text-decoration: none;
+}
+
+/* CSS Positioning */
+
+.box {
+	background: red;
+	color: #ffffff;
+	height: 150px;
+	width: 150px;
+	margin: 20px 0;
+}
+/* Relative changes the position "relative" to where it should be
+following the normal flow rules. Comment this block to see the
+difference */
+#relative-box {
+	position: relative;
+	top: 30px;
+	left: -70px;
+}
+
+/* Absolute sets the position "relative" to it's parent element. If nothing is
+specified, it's parent is the "body" tag. Comment this block to see the
+difference */
+#absolute-box {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
