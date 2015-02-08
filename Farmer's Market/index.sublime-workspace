@@ -1,0 +1,206 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cos",
+				"costoTodas"
+			],
+			[
+				"cost",
+				"costoTodas"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"href",
+				"hreflang	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Pedro/Proyectos INTELLIJidea/WEB_DEV/Farmer's Marked/farmer.css",
+		"/Users/Pedro/Proyectos INTELLIJidea/WEB_DEV/Farmer's Marked/index.html",
+		"/Users/Pedro/Desktop/webPractise/Farmers_Web/farmer.css",
+		"/Users/Pedro/Desktop/webPractise/Farmers_Web/index.html",
+		"/Users/Pedro/Desktop/desktop staff/webPractise/index.html",
+		"/Users/Pedro/Desktop/desktop staff/webPractise/javaS.js",
+		"/Users/Pedro/Desktop/desktop staff/webPractise/costoNaranjas.js",
+		"/Users/Pedro/Proyectos INTELLIJidea/WEB_DEV/Lesson 17 CSS Advanced/styles.css",
+		"/Users/Pedro/Proyectos INTELLIJidea/WEB_DEV/Lesson 17 CSS Advanced/links.html",
+		"/Users/Pedro/Desktop/webPractise/web1/index.html",
+		"/Users/Pedro/Proyectos INTELLIJidea/WEB_DEV/Lesson 16 CSS Intermediate III/index.html",
+		"/Users/Pedro/Desktop/terminalPractise/script5.sh",
+		"/script5.sh",
+		"/Users/Pedro/Desktop/terminalPractise/script4.sh",
+		"/Users/Pedro/Desktop/terminalPractise/script3.sh"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
